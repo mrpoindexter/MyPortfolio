@@ -6,11 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ahnaf Abid Khan - Building Digital Experiences</title>
+    <link rel="icon" type="image/png" href="./assets/portfolio.png">
     <link rel="stylesheet" href="Style.css" />
     <link rel="stylesheet" href="Media.css" />
+    <style>
+  	html {
+    scroll-behavior: smooth;
+  	}
+	</style>
   </head>
  <!-- This is the header section -->
   <body>
+  	<button id="theme-toggle" title="Toggle Dark Mode">🌙</button>
     <nav id="desktop-nav" class="animated-nav">
   <div class="logo">Ahnaf Abid Khan</div>
   <div>
@@ -61,37 +68,42 @@
 </button>
         </div>
         <div id="socials-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="My LinkedIn profile"
-            class="icon"
-            onclick="window.open('https://www.linkedin.com/in/ahnaf-abid-khan-a61271348/', '_blank')"
-          />
-          <img
-            src="./assets/github.png"
-            alt="My Github profile"
-            class="icon"
-            onclick="window.open('https://github.com/mrpoindexter', '_blank')"
-          />
-          <img
-            src="./assets/facebook.png"
-            alt="My Facebook profile"
-            class="icon"
-            onclick="window.open('https://www.facebook.com/ahnafbro25/', '_blank')"
-          />
-          <img
-            src="./assets/twitter.png"
-            alt="My Twitter profile"
-            class="icon"
-            onclick="window.open('https://x.com/Ahnaf5668216', '_blank')"
-          />
-          <img
-            src="./assets/instagram.png"
-            alt="My Instagram profile"
-            class="icon"
-            onclick="window.open('https://www.instagram.com/ahnaf62726f/', '_blank')"
-          />
-        </div>
+		  <img
+		    src="./assets/linkedin.png"
+		    alt="My LinkedIn profile"
+		    class="icon"
+		    onclick="window.open('https://www.linkedin.com/in/ahnaf-abid-khan-a61271348/', '_blank')"
+		    title="LinkedIn"
+		  />
+		  <img
+		    src="./assets/github.png"
+		    alt="My Github profile"
+		    class="icon"
+		    onclick="window.open('https://github.com/mrpoindexter', '_blank')"
+		    title="GitHub"
+		  />
+		  <img
+		    src="./assets/facebook.png"
+		    alt="My Facebook profile"
+		    class="icon"
+		    onclick="window.open('https://www.facebook.com/ahnafbro25/', '_blank')"
+		    title="Facebook"
+		  />
+		  <img
+		    src="./assets/twitter.png"
+		    alt="My Twitter profile"
+		    class="icon"
+		    onclick="window.open('https://x.com/Ahnaf5668216', '_blank')"
+		    title="Twitter"
+		  />
+		  <img
+		    src="./assets/instagram.png"
+		    alt="My Instagram profile"
+		    class="icon"
+		    onclick="window.open('https://www.instagram.com/ahnaf62726f/', '_blank')"
+		    title="Instagram"
+		  />
+		</div>
       </div>
       <!-- This is the about section -->
     </section>
@@ -667,21 +679,29 @@
       </div>
     </section>
     <footer>
-      <nav id="desktop-nav" class="animated-nav">
-  <div>
-    <ul class="nav-links">
-      <li><a href="#about" class="nav-item">👤 About</a></li>
-      <li><a href="#Education" class="nav-item">🎓 Education</a></li>
-      <li><a href="#Thesis" class="nav-item">📜 Thesis</a></li>
-      <li><a href="#Projects" class="nav-item">💡 Projects</a></li>
-      <li><a href="#Courses" class="nav-item">📚 Knowledge</a></li>
-      <li><a href="#Achievements" class="nav-item">🏆 Achievements</a></li>
-      <li><a href="#experience" class="nav-item">🚀 Exposure</a></li>
-    </ul>
+  <nav id="desktop-nav" class="animated-nav">
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about" class="nav-item">👤 About</a></li>
+        <li><a href="#Education" class="nav-item">🎓 Education</a></li>
+        <li><a href="#Thesis" class="nav-item">📜 Thesis</a></li>
+        <li><a href="#Projects" class="nav-item">💡 Projects</a></li>
+        <li><a href="#Courses" class="nav-item">📚 Knowledge</a></li>
+        <li><a href="#Achievements" class="nav-item">🏆 Achievements</a></li>
+        <li><a href="#experience" class="nav-item">🚀 Exposure</a></li>
+      </ul>
+    </div>
+    <button id="back-to-top" title="Go to top">↑</button>
+  </nav>
+  <div class="footer-socials">
+    <a href="https://www.linkedin.com/in/ahnaf-abid-khan-a61271348/" target="_blank"><img src="./assets/linkedin.png" alt="LinkedIn"></a>
+    <a href="https://github.com/mrpoindexter" target="_blank"><img src="./assets/github.png" alt="GitHub"></a>
+    <a href="https://www.facebook.com/ahnafbro25/" target="_blank"><img src="./assets/facebook.png" alt="Facebook"></a>
+    <a href="https://x.com/Ahnaf5668216" target="_blank"><img src="./assets/twitter.png" alt="Twitter"></a>
+    <a href="https://www.instagram.com/ahnaf62726f/" target="_blank"><img src="./assets/instagram.png" alt="Instagram"></a>
   </div>
-</nav>
-      <p>© 2025 Ahnaf Abid Khan. All Rights Reserved.</p>
-    </footer>
+  <p>© 2025 Ahnaf Abid Khan. All Rights Reserved.</p>
+</footer>
     <script src="Script.js"></script>
   </body>
 </html>
